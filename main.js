@@ -5,8 +5,8 @@ document.onreadystatechange = function () {
   } else if (state == 'complete') {
       setTimeout(function(){
          document.getElementById('interactive');
-         document.getElementById('box').style.visibility="hidden";
+         document.getElementById('load').style.visibility="hidden";
          document.getElementById('contents').style.visibility="visible";
-      },1000);
+      },2000);
   }
 }
